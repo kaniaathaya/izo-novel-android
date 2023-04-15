@@ -4,24 +4,27 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_marginTop="30dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
     android:orientation="vertical"
-    tools:context=".RegisterActivity">
+    tools:context=".MainActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:orientation="horizontal"
         android:layout_marginLeft="20dp"
-        android:layout_marginTop="30dp"
         android:layout_marginRight="30dp"
         android:layout_height="wrap_content">
         <TextView
-            android:layout_width="match_parent"
-            android:layout_weight="3"
-            android:text="@string/login_first_name"
-            android:layout_height="wrap_content"/>
-        <EditText
-            android:layout_width="match_parent"
             android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/login_first_name"/>
+        <EditText
+            android:layout_weight="2"
+            android:id="@+id/etFirstName"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
     </LinearLayout>
 
@@ -32,13 +35,14 @@
         android:layout_marginRight="30dp"
         android:layout_height="wrap_content">
         <TextView
-            android:layout_width="match_parent"
-            android:layout_weight="3"
-            android:text="@string/login_last_name"
-            android:layout_height="wrap_content"/>
-        <EditText
-            android:layout_width="match_parent"
             android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/login_last_name"/>
+        <EditText
+            android:layout_weight="2"
+            android:id="@+id/etLastName"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
     </LinearLayout>
 
@@ -49,13 +53,14 @@
         android:layout_marginRight="30dp"
         android:layout_height="wrap_content">
         <TextView
-            android:layout_width="match_parent"
-            android:layout_weight="3"
-            android:text="@string/login_email"
-            android:layout_height="wrap_content"/>
-        <EditText
-            android:layout_width="match_parent"
             android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/login_email"/>
+        <EditText
+            android:layout_weight="5"
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
     </LinearLayout>
 
@@ -66,22 +71,21 @@
         android:layout_marginRight="30dp"
         android:layout_height="wrap_content">
         <TextView
-            android:layout_width="match_parent"
-            android:layout_weight="3"
-            android:text="@string/login_password"
-            android:layout_height="wrap_content"/>
-        <EditText
-            android:layout_width="match_parent"
             android:layout_weight="1"
-            android:inputType="textPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/login_password"/>
+        <EditText
+            android:layout_weight="10"
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="30dp"
+        android:layout_weight="1"
         android:layout_marginTop="20dp">
         <Button
             android:layout_width="wrap_content"
@@ -91,10 +95,9 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Sumit"
+            android:text="submit"
             android:layout_marginLeft="20dp"
             android:layout_weight="1"/>
     </LinearLayout>
-
 
 </androidx.appcompat.widget.LinearLayoutCompat>

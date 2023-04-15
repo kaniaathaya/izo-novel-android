@@ -5,30 +5,41 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".SplashActivity">
+    android:gravity="center"
+    tools:context="com.example.izzonovel.SplashActivity">
+
     <LinearLayout
+        android:layout_height="match_parent"
         android:layout_width="match_parent"
         android:orientation="vertical"
         android:gravity="center"
-        android:background="@color/splash_bg"
-        android:layout_height="match_parent">
+        android:background="@color/cardview_dark_background">
+
         <ImageView
             android:layout_width="300dp"
             android:layout_height="300dp"
-            android:src="@drawable/logo"/>
+            android:src="@drawable/books"
+            />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="36dp"
-            android:textColor="@color/white"
+            android:textSize="40dp"
+            android:text="Izzo Novel"
             android:textAlignment="center"
-            android:textFontWeight="@integer/material_motion_duration_long_1"
-            android:text="IZO NOVEL" />
+
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:textAlignment="center"
-            android:textColor="@color/white"
-            android:text="powere by @ izonovel.com" />
+            android:text="Created by Kania"/>
+
     </LinearLayout>
 </androidx.appcompat.widget.LinearLayoutCompat>

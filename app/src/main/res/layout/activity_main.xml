@@ -4,9 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_marginTop="30dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
     android:orientation="vertical"
-    android:background="@color/white"
-    tools:context=".MainActivity">
+    tools:context="com.example.izzonovel.MainActivity">
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
@@ -114,8 +116,6 @@
                 </LinearLayout>
 
                 <LinearLayout
-                    android:id="@+id/informasi_pengguna"
-                    android:clickable="true"
                     android:layout_width="match_parent"
                     android:orientation="horizontal"
                     android:background="@drawable/border"
@@ -188,91 +188,91 @@
 
             </LinearLayout>
 
-<HorizontalScrollView
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_centerHorizontal="true"
-    android:layout_centerVertical="true"
-    tools:ignore="UselessParent">
-            <LinearLayout
+            <HorizontalScrollView
                 android:layout_width="match_parent"
-                android:orientation="horizontal"
-                android:paddingTop="20dp"
-                android:background="@color/box_one"
-                android:paddingBottom="20dp"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                tools:ignore="UselessParent">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:paddingTop="20dp"
+                    android:background="@color/box_one"
+                    android:paddingBottom="20dp"
+                    android:layout_height="wrap_content">
 
-                <LinearLayout
-                    android:layout_width="120dp"
-                    android:layout_marginLeft="20dp"
-                    android:orientation="vertical"
-                    android:background="@drawable/border"
-                    android:layout_height="200dp">
-                    <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="150dp"
-                        android:background="@color/purple_700"/>
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:padding="7dp"
-                        android:text="Judul novel ini judul"
-                        android:textColor="@color/text_sub"/>
-                </LinearLayout>
-                <LinearLayout
-                    android:layout_width="120dp"
-                    android:layout_marginLeft="20dp"
-                    android:orientation="vertical"
-                    android:background="@drawable/border"
-                    android:layout_height="200dp">
-                    <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="150dp"
-                        android:background="@color/text_header"/>
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:padding="7dp"
-                        android:text="Judul novel ini judul"
-                        android:textColor="@color/text_sub"/>
-                </LinearLayout>
-                <LinearLayout
-                    android:layout_width="120dp"
-                    android:layout_marginLeft="20dp"
-                    android:orientation="vertical"
-                    android:background="@drawable/border"
-                    android:layout_height="200dp">
-                    <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="150dp"
-                        android:background="@color/purple_200"/>
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:padding="7dp"
-                        android:text="Judul novel ini judul"
-                        android:textColor="@color/text_sub"/>
-                </LinearLayout>
-                <LinearLayout
-                    android:layout_width="120dp"
-                    android:layout_marginLeft="20dp"
-                    android:orientation="vertical"
-                    android:background="@drawable/border"
-                    android:layout_height="200dp">
-                    <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="150dp"
-                        android:background="@color/splash_bg"/>
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:padding="7dp"
-                        android:text="Judul novel ini judul"
-                        android:textColor="@color/text_sub"/>
-                </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="120dp"
+                        android:layout_marginLeft="20dp"
+                        android:orientation="vertical"
+                        android:background="@drawable/border"
+                        android:layout_height="200dp">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:background="@color/purple_700"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="7dp"
+                            android:text="Judul novel ini judul"
+                            android:textColor="@color/text_sub"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="120dp"
+                        android:layout_marginLeft="20dp"
+                        android:orientation="vertical"
+                        android:background="@drawable/border"
+                        android:layout_height="200dp">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:background="@color/text_header"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="7dp"
+                            android:text="Judul novel ini judul"
+                            android:textColor="@color/text_sub"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="120dp"
+                        android:layout_marginLeft="20dp"
+                        android:orientation="vertical"
+                        android:background="@drawable/border"
+                        android:layout_height="200dp">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:background="@color/purple_200"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="7dp"
+                            android:text="Judul novel ini judul"
+                            android:textColor="@color/text_sub"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="120dp"
+                        android:layout_marginLeft="20dp"
+                        android:orientation="vertical"
+                        android:background="@drawable/border"
+                        android:layout_height="200dp">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:background="@color/splash_bg"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="7dp"
+                            android:text="Judul novel ini judul"
+                            android:textColor="@color/text_sub"/>
+                    </LinearLayout>
 
-            </LinearLayout>
-</HorizontalScrollView>
+                </LinearLayout>
+            </HorizontalScrollView>
         </LinearLayout>
     </ScrollView>
 </androidx.appcompat.widget.LinearLayoutCompat>
