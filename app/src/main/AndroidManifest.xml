@@ -14,13 +14,16 @@
         android:theme="@style/Theme.IzzoNovel"
         tools:targetApi="31">
         <activity
-            android:name=".daftarnovel"
+            android:name=".activity_splash"
             android:exported="false" />
         <activity
-            android:name="com.example.izzonovel.SplashActivity"
+            android:name=".activity_register"
             android:exported="false" />
         <activity
-            android:name="com.example.izzonovel.activity_register"
+            android:name=".activity_menu_favorite"
+            android:exported="false" />
+        <activity
+            android:name=".activity_main"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -29,8 +32,17 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.izzonovel.MainActivity"
-            android:exported="true" />
+            android:name=".activity_form_input"
+            android:exported="false" />
+        <activity
+            android:name=".activity_detail"
+            android:exported="false" />
+        <activity
+            android:name=".activity_biodata"
+            android:exported="false" />
+        <activity
+            android:name=".daftarnovel"
+            android:exported="false"/>
     </application>
 
 </manifest>

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".BiodataActivity">
+    tools:context=".activity_biodata">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -44,22 +44,22 @@
                     android:layout_gravity="center"
                     android:text="Jenis Kelamin"/>
 
-                    <RadioGroup
-                        android:layout_width="match_parent"
-                        android:orientation="horizontal"
-                        android:layout_weight="1"
-                        android:layout_height="wrap_content">
-                        <RadioButton
-                            android:layout_width="wrap_content"
-                            android:text="Laki-Laki"
-                            android:layout_height="wrap_content"/>
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content">
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:text="Laki-Laki"
+                        android:layout_height="wrap_content"/>
 
-                        <RadioButton
-                            android:layout_width="wrap_content"
-                            android:layout_marginLeft="15dp"
-                            android:text="Perepuan"
-                            android:layout_height="wrap_content"/>
-                    </RadioGroup>
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:text="Perepuan"
+                        android:layout_height="wrap_content"/>
+                </RadioGroup>
             </LinearLayout>
 
             <LinearLayout

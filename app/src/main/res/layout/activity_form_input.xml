@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".FormInptActivity">
+    tools:context=".activity_form_input">
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content">

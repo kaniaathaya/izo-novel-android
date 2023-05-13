@@ -8,7 +8,7 @@
     android:layout_marginLeft="10dp"
     android:layout_marginRight="10dp"
     android:orientation="vertical"
-    tools:context="com.example.izzonovel.MainActivity">
+    tools:context=".activity_main">
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
@@ -177,6 +177,7 @@
                         android:layout_weight="1"
                         android:textColor="@color/text_sub"/>
                     <TextView
+                        android:id="@+id/morefavorite"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="More"
@@ -211,12 +212,12 @@
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="150dp"
-                            android:background="@color/purple_700"/>
+                            android:background="@drawable/kata"/>
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:padding="7dp"
-                            android:text="Judul novel ini judul"
+                            android:text="Kata"
                             android:textColor="@color/text_sub"/>
                     </LinearLayout>
                     <LinearLayout
@@ -228,12 +229,12 @@
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="150dp"
-                            android:background="@color/text_header"/>
+                            android:background="@drawable/nkcthi"/>
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:padding="7dp"
-                            android:text="Judul novel ini judul"
+                            android:text="NKCTHI"
                             android:textColor="@color/text_sub"/>
                     </LinearLayout>
                     <LinearLayout
@@ -245,29 +246,12 @@
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="150dp"
-                            android:background="@color/purple_200"/>
+                            android:background="@drawable/ktbb"/>
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:padding="7dp"
-                            android:text="Judul novel ini judul"
-                            android:textColor="@color/text_sub"/>
-                    </LinearLayout>
-                    <LinearLayout
-                        android:layout_width="120dp"
-                        android:layout_marginLeft="20dp"
-                        android:orientation="vertical"
-                        android:background="@drawable/border"
-                        android:layout_height="200dp">
-                        <ImageView
-                            android:layout_width="match_parent"
-                            android:layout_height="150dp"
-                            android:background="@color/splash_bg"/>
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:padding="7dp"
-                            android:text="Judul novel ini judul"
+                            android:text="KTBB"
                             android:textColor="@color/text_sub"/>
                     </LinearLayout>
 
